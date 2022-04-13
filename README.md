@@ -203,10 +203,10 @@ Para executar os testes localmente, digite no terminal o comando `npm test`.
 
 ### Dica: desativando testes
 
-Especialmente no início, quando a maioria dos testes está falhando, a saída após executar os testes é bastante poluída. Você pode desabilitar temporariamente um teste utilizando a função `skip` junto à função `describe.skip`. Como o nome indica, esta função "pula" um teste:
+Especialmente no início, quando a maioria dos testes está falhando, a saída após executar os testes é bastante poluída. Você pode desabilitar temporariamente um teste utilizando a função `skip` junto à função `describe`. Como o nome indica, esta função "pula" um teste:
 
 ```typescript
-describe.skip.skip("...", () => {});
+describe.skip("...", () => {});
 ```
 
 Uma estratégia é pular todos os testes no início e ir implementando um teste de cada vez, removendo dele a função `skip`.
