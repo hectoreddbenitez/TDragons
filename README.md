@@ -88,8 +88,9 @@ Para este projeto, você deverá aplicar os princípios da arquitetura `SOLID` e
 
 ## Data de Entrega
 
-- Serão `2` dias de projeto.
-- Data de entrega para avaliação final do projeto: `25/04/2022 14:00`.
+  - Serão `2` dias de projeto.
+  - Data de entrega para avaliação final do projeto: `25/04/2022 14:00`.
+
 
 ---
 
