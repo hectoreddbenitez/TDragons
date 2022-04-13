@@ -6,7 +6,7 @@ export default class Orc extends Race {
 
   constructor(name: string, dexterity: number) {
     super(name, dexterity);
-    this._lifePoints = 80;
+    this._lifePoints = 74;
     Orc._instanceCounter += 1;
   }
 
